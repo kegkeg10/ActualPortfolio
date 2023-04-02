@@ -15,22 +15,24 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, description }) => {
+const Project = ({ title, description, link }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
-      <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">{description}</p>
-      </div>
-      <img
-        src={`../assets/${projectTitle}.png`}
-        alt={projectTitle}
-        style={{ width: "400px", height: "auto" }}
-      />
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <div className={overlayStyles}>
+          <p className="text-2xl font-playfair">{title}</p>
+          <p className="mt-7">{description}</p>
+        </div>
+        <img
+          src={`../assets/${projectTitle}.png`}
+          alt={projectTitle}
+          style={{ width: "400px", height: "auto" }}
+        />
+      </a>
     </motion.div>
   );
 };
@@ -79,18 +81,18 @@ const Projects = () => {
           >
             Projects
           </div>
-          <Project title="jobster" description="This is a project about Keeping track of all the jobs you applied for Using React." />
-          <Project title="quiz" description="A Naruto Quiz App Using JavaScript"/>
+          <Project title="jobster"  link="https://jobsterproject.netlify.app" description="This is a project about Keeping track of all the jobs you applied for Using React." />
+          <Project title="quiz"  link="https://kegkeganimesite.netlify.app" description="A Naruto Quiz App Using JavaScript"/>
 
 
           {/* ROW 2 */}
-          <Project title="hangman" description="Hangman clone Using TypeScript. Made from Tutorial" />
-          <Project title="floppy" description="Floppy Bird clone using React" />
-          <Project title="Nucamp" description="Nucamp coding Bootcamp Big React Project" />
+          <Project title="hangman"  link="https://hangmanclonekeg.netlify.app" description="Hangman clone Using TypeScript. Made from Tutorial" />
+          <Project title="floppy"  link="https://animechatfloppy13.netlify.app" description="Floppy Bird clone using React" />
+          <Project title="nucamp"  link="https://example.com/jobster" description="Nucamp coding Bootcamp Big React Project" />
 
           {/* ROW 3 */}
-          <Project title="animeSearch" description="Anime Search App Using React and Jikan API" />
-          <Project title="Noteapp" description="React noteapp with a dark mode toggle" />
+          <Project title="animesearch"  link="https://kegkeganime1.netlify.app" description="Anime Search App Using React and Jikan API" />
+          <Project title="noteapp"  link="https://nicknoteapp.netlify.app" description="React noteapp with a dark mode toggle" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
