@@ -7,7 +7,7 @@ const Link = ({ page, selectedPage, setSelectedPage}) => {
     return (
         <AnchorLink
             className={`${selectedPage === lowerCasePage ? "text-yellow" : ""} 
-            hover:text-yellow transition duration-500`}
+            hover:text-green transition duration-500`}
             href={`#${lowerCasePage}`}
             onClick={() => setSelectedPage(lowerCasePage)}
         >{page}</AnchorLink>
@@ -44,11 +44,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Testimonials"
-                            selectedPage={selectedPage}
-                            setSelectedPage={setSelectedPage}
-                        />
-                        <Link
                             page="Contact"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
@@ -65,7 +60,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 
                 {/* MOBILE MENU POP UP */}
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+                    <div className="fixed right-0 bottom-0 h-full bg-purple w-[300px]">
                     {/* CLOSE ICON */}
                         <div className="flex justify-end p-12">
                             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -86,11 +81,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             />
                             <Link
                                 page="Projects"
-                                selectedPage={selectedPage}
-                                setSelectedPage={setSelectedPage}
-                            />
-                            <Link
-                                page="Testimonials"
                                 selectedPage={selectedPage}
                                 setSelectedPage={setSelectedPage}
                             />

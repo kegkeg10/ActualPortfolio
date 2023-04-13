@@ -61,7 +61,6 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          My Projects I Made using HTML,CSS,JavaScript 
         </p>
       </motion.div>
 

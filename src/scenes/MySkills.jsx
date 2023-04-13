@@ -22,11 +22,11 @@ const MySkills = () => {
                     }}
                 >
                     <p className='font-playfair font-semibold text-4xl mb-5'>
-                        My <span className='text-red'>Skills</span>
+                        My <span className='text-green'>Skills</span>
                     </p>
                     <LineGradient width='w-1/3' />
                     <p className='mt-10 mb-7'>
-                        All Skills im really good at. Willing to Learn Program Language
+                        All Skills i Feel Good In as of Now!
                     </p>
                 </motion.div>
 
@@ -53,7 +53,7 @@ const MySkills = () => {
             </div>
             {/* Skills */}
             <div className='md:flex md:justify-between mt-16 gap-32'>
-                {/* Expiernce */}\
+                {/* Expiernce */} 
                 <motion.div
                     className='md:w-1/3 mt-10'
                     initial="hidden"
@@ -65,91 +65,68 @@ const MySkills = () => {
                         visible: { opacity: 1, y: 0 }
                     }}
                 >   
-                    <div className='relative h-32'>
-                        <div className='z-10'>
-                            <p className='font-playfair font-semibold text-5xl'>01</p>
-                            <p className='font-playfair font-semibold text-3xl mt-3'>HTML</p>
-                        </div>
-                        <div className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]' />
-                    </div>
-                </motion.div>
-                                {/* INNOVATIVE */}\
-                                <motion.div
-                    className='md:w-1/3 mt-10'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}
-                    variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 }
-                    }}
-                >   
-                    <div className='relative h-32'>
-                        <div className='z-10'>
-                            <p className='font-playfair font-semibold text-5xl'>02</p>
-                            <p className='font-playfair font-semibold text-3xl mt-3'>JavaScript</p>
-                        </div>
-                        <div className='w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]' />
-                    </div>
-                </motion.div>
-                {/* IMAGINATIVE */}\
-                <motion.div
-                    className='md:w-1/3 mt-10'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.4, duration: 0.5 }}
-                    variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 }
-                    }}
-                >   
-                    <div className='relative h-32'>
-                        <div className='z-10'>
-                            <p className='font-playfair font-semibold text-5xl'>03</p>
-                            <p className='font-playfair font-semibold text-3xl mt-3'>React</p>
-                        </div>
-                        <div className='w-1/2 md:w-3/4 h-32 bg-brown absolute right-0 top-0 z-[-1]' />
-                    </div>
-                </motion.div>
-                <motion.div
-                    className='md:w-1/3 mt-10'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.4, duration: 0.5 }}
-                    variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 }
-                    }}
-                >   
-                    <div className='relative h-32'>
-                        <div className='z-10'>
-                            <p className='font-playfair font-semibold text-5xl'>04</p>
-                            <p className='font-playfair font-semibold text-3xl mt-3'>React Native</p>
-                        </div>
-                        <div className='w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]' />
-                    </div>
-                </motion.div>
-                <motion.div
-                    className='md:w-1/3 mt-10'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.4, duration: 0.5 }}
-                    variants={{
-                        hidden: { opacity: 0, y: 50 },
-                        visible: { opacity: 1, y: 0 }
-                    }}
-                >   
-                    <div className='relative h-32'>
-                        <div className='z-10'>
-                            <p className='font-playfair font-semibold text-5xl'>05</p>
-                            <p className='font-playfair font-semibold text-3xl mt-3'>Node.Js</p>
-                        </div>
-                        <div className='w-1/2 md:w-3/4 h-32 bg-orange absolute right-0 top-0 z-[-1]' />
-                    </div>
+<div class="flex flex-wrap justify-start">
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="React"
+    title="React"
+  />
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="JavaScript"
+    title="JavaScript"
+  />
+  <img
+    src="https://i.ibb.co/3y581LV/nextjs.webp" 
+    className="h-20 w-20 mx-4 my-4"
+    alt="NextJS"
+    title="NextJS"
+  />
+  <img
+    src="https://i.ibb.co/zmXS06Z/tailwind.webp"
+    className="h-20 w-20 mx-4 my-4"
+    alt="Tailwind"
+    title="Tailwind"
+  />
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="HTML5"
+    title="HTML5"
+  />
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="CSS3"
+    title="CSS3"
+  />
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="Git"
+    title="Git"
+  />
+  <img
+    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="MongoDB"
+    title="MongoDB"
+  />
+  <img
+    src="https://cdn4.iconfinder.com/data/icons/logos-3/455/nodejs-new-black-512.png"
+    className="h-20 w-20 mx-4 my-4"
+    alt="NodeJs"
+    title="NodeJs"
+  />
+  <img
+    src="https://pbs.twimg.com/profile_images/1273081551354396672/-Tzadxix_400x400.jpg"
+    className="h-20 w-20 mx-4 my-4"
+    alt="Bootstrap"
+    title="Bootstrap"
+  />
+</div>
                 </motion.div>
             </div>
         </section>
