@@ -87,13 +87,13 @@ const Projects = () => {
           {/* ROW 2 */}
           <Project title="hangman"  link="https://hangmanclonekeg.netlify.app" description="Hangman clone Using TypeScript. Made from Tutorial" />
           <Project title="floppy"  link="https://animechatfloppy13.netlify.app" description="Floppy Bird clone using React" />
-          <Project title="nucamp"  link="https://example.com/jobster" description="Nucamp coding Bootcamp Big React Project" />
+          <Project title="comfysloth"  link="https://ecomreactcomfy.netlify.app" description="comfysloth Ecom store using React" />
 
           {/* ROW 3 */}
           <Project title="animesearch"  link="https://kegkeganime1.netlify.app" description="Anime Search App Using React and Jikan API" />
           <Project title="noteapp"  link="https://nicknoteapp.netlify.app" description="React noteapp with a dark mode toggle" />
           <div
-            className="flex justify-center text-center items-center p-10 bg-blue
+            className="flex justify-center text-center items-center p-10 bg-brown
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             Projects
