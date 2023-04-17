@@ -81,7 +81,7 @@ const Projects = () => {
             Projects
           </div>
           <Project title="jobster"  link="https://jobsterproject.netlify.app" description="This is a project about Keeping track of all the jobs you applied for Using React." />
-          <Project title="quiz"  link="https://kegkeganimesite.netlify.app" description="A Naruto Quiz App Using JavaScript"/>
+          <Project title="quizz"  link="https://kegkeganimesite.netlify.app" description="A Naruto Quiz App Using JavaScript"/>
 
 
           {/* ROW 2 */}
