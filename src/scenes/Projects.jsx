@@ -90,7 +90,7 @@ const Projects = () => {
           <Project title="comfysloth"  link="https://ecomreactcomfy.netlify.app" description="comfysloth Ecom store using React" />
 
           {/* ROW 3 */}
-          <Project title="animesearch"  link="https://kegkeganime1.netlify.app" description="Anime Search App Using React and Jikan API" />
+          <Project title="menu"  link="https://nicmenureact.netlify.app/" description="Menu app using Vite And React" />
           <Project title="noteapp"  link="https://nicknoteapp.netlify.app" description="React noteapp with a dark mode toggle" />
           <div
             className="flex justify-center text-center items-center p-10 bg-brown
