@@ -91,7 +91,7 @@ const Projects = () => {
 
           {/* ROW 3 */}
           <Project title="menu"  link="https://nicmenureact.netlify.app/" description="Menu app using Vite And React" />
-          <Project title="Note"  link="https://nicknoteapp.netlify.app" description="React Note with a dark mode toggle" />
+          <Project title='note' link="https://nicknoteapp.netlify.app" description="note takingg app with dark mode Toggle made with React" />git
           <div
             className="flex justify-center text-center items-center p-10 bg-brown
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
