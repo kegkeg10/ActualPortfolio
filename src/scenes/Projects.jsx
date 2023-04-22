@@ -30,7 +30,7 @@ const Project = ({ title, description, link }) => {
         <img
           src={`../assets/${projectTitle}.png`}
           alt={projectTitle}
-          style={{ width: "400px", height: "auto" }}
+          style={{ width: "400px", height: "400px" }}
         />
       </a>
     </motion.div>

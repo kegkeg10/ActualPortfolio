@@ -54,7 +54,7 @@ return (
             }}
             className="basis-1/2 flex justify-center"
             >
-            <img src="../assets/contact-image.jpeg" alt="contact" />
+            <img src="../assets/thumbsup.jfif" alt="contact" />
             </motion.div>
 
             <motion.div
